@@ -234,11 +234,30 @@ footer span {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
 }
 
 .homepage-image img {
-    height: 30rem;
+    width: 100%;
+    max-width: 800px;
+}
+
+.credits {
+    text-align: center;
+}
+
+.credits-header {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    margin-bottom: 20px;
+}
+
+.credits-header img {
+    height: 1.5rem;
+}
+
+.credit-template img {
+    height: 9rem;
 }
 
 
