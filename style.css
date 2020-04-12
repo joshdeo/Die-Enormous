@@ -90,6 +90,15 @@ footer span {
     justify-content: center;
 }
 
+.footer-payments {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-payments i {
+    padding: 5px;
+} 
+
 /* STORE */
 
 .fa-shopping-cart {
@@ -201,6 +210,69 @@ footer span {
     background-color:  #FFCC00;
     border-radius: 15px;
 }
+
+/* LANDING PAGE LOGO */
+
+.homepage-container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.home-logo img {
+    height: 2rem;
+    padding-top: 2rem;
+}
+
+.seasons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.homepage-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.homepage-image img {
+    height: 30rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* MEDIA QUERY 
 .store-container {
