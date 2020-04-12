@@ -170,6 +170,37 @@ footer span {
     margin-top: 20px;
 }
 
+/* METHOD OF PAYMENT BUTTONS*/
+
+.payment-buttons {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 50px;
+}
+
+.payment-buttons button {
+    padding: 5px;
+}
+
+.payment-button-margin {
+    margin-right: 10px;
+}
+
+/* PAYMENT OPTIONS */
+
+.payment-methods {
+    padding-top: 20px;
+}
+
+.payment-methods img {
+    height: 3rem;
+}
+
+.payment-methods .pp {
+    height: 2.75rem;
+    background-color:  #FFCC00;
+    border-radius: 15px;
+}
 
 /* MEDIA QUERY 
 .store-container {
