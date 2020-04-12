@@ -297,7 +297,6 @@ footer span {
 .product-image-sub img {
     height: 10rem;
     background-color: rgba(232, 232, 232, 1);
-    ;
 }
 
 .product-name,
@@ -320,7 +319,6 @@ footer span {
 /* DROPDOWN SIZES */
 .dropbtn {
     background-color: rgb(225, 39, 39);
-    ;
     color: white;
     padding: 16px;
     border: none;
@@ -369,14 +367,20 @@ footer span {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin: auto;
     min-height: 100vh;
 }
 
+.store-products img {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
 .product-details {
-    border: 1px solid black;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    border: 1px solid black;
 }
 
 .product-detail-image {
@@ -391,10 +395,10 @@ footer span {
 
 .hover-description {
     position: absolute;
-    visibility: hidden;
+    /*visibility: hidden;*/
     padding: 10px;
     text-align: center;
-    height: auto;
+    border: 1px solid black;
 }
 
 .product-detail-image:hover {
