@@ -380,7 +380,6 @@ footer span {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    border: 1px solid black;
 }
 
 .product-detail-image {
@@ -395,10 +394,9 @@ footer span {
 
 .hover-description {
     position: absolute;
-    /*visibility: hidden;*/
+    visibility: hidden;
     padding: 10px;
     text-align: center;
-    border: 1px solid black;
 }
 
 .product-detail-image:hover {
