@@ -97,7 +97,7 @@ footer span {
 
 .footer-payments i {
     padding: 5px;
-} 
+}
 
 /* STORE */
 
@@ -207,7 +207,7 @@ footer span {
 
 .payment-methods .pp {
     height: 2.75rem;
-    background-color:  #FFCC00;
+    background-color: #FFCC00;
     border-radius: 15px;
 }
 
@@ -228,6 +228,13 @@ footer span {
     flex-direction: column;
     justify-content: center;
     margin-top: 80px;
+    margin-bottom: 2rem;
+}
+
+.seasons span a {
+    text-decoration: none;
+    font-family: anton;
+    color: black;
 }
 
 .homepage-image {
@@ -260,14 +267,98 @@ footer span {
     height: 9rem;
 }
 
+/* PRODUCT SHOWCASE */
 
+.product-info {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 800px;
+    height: 100vh;
+}
 
+.product-image {
+    display: flex;
+    justify-content: center;
+}
 
+.product-info img {
+    height: 30rem;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
 
+.product-image-sub {
+    display: flex;
+    justify-content: space-around;
+}
 
+.product-image-sub img {
+    height: 10rem;
+    background-color: rgba(232, 232, 232, 1);;
+}
 
+.product-name, .product-price {
+    padding: 10px;
+}
 
+.product-description {
+    padding: 10px;
+}
 
+.manufacturing-details {
+    padding: 30px;
+}
+
+.manufacturing-details li {
+    padding-top: 20px;
+}
+
+/* DROPDOWN SIZES */
+.dropbtn {
+    background-color: rgb(225, 39, 39);;
+    color: white;
+    padding: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    padding-left: 15px;
+    width: 25%;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    opacity: 70%;
+}
+
+.dropdown-margin {
+    margin-top: 15rem;
+}
 
 
 
