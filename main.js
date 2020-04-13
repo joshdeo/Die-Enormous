@@ -44,7 +44,15 @@ function addToCartClicked(event) {
     var title = shopItem.getElementsByClassName('shop-item')[0].innerText;
     var price = shopItem.getElementsByClassName('shop-item-price')[0].innerText;
     var imageSrc = shopItem.getElementsByClassName('shop-item-image')[0].src;
-    console.log(title, price, imageSrc)
+    console.log(title, price, imageSrc);
+    addItemToCart(title, price, imageSrc);
+}
+
+function addItemToCart(title, price, imageSrc) {
+    var cartRow = document.createElement('div');
+    cartRow.innerText = title
+    var cartItems = document.getElementsByClassName('product-details')[0]
+    cartItems.append(cartRow)
 }
 
 function updateCartTotal() {
