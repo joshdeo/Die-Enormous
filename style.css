@@ -164,6 +164,11 @@ footer span {
     left: 15px;
 }
 
+.item-description input {
+    width: 50px; 
+    height: 60px;
+}
+
 .price {
     margin-right: 30px;
     box-sizing: border-box;
