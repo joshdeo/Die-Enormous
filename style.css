@@ -107,6 +107,10 @@ footer span {
     color: rgb(225, 39, 39);
 }
 
+.cart {
+    padding: 5px;
+}
+
 .store-container {
     width: 90%;
     margin: auto;
