@@ -417,6 +417,12 @@ footer span {
     height: 30rem;
 }
 
+.product-detail-image .unc {
+    height: 15rem;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
 .hover-description {
     padding: 10px;
     text-align: center;
